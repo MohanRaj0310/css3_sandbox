@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float & alignment</title>
+  <style>
+    .clr {
+      clear: right;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 760px;
+      margin: 20px auto;
+      text-align: center;
+      text-align: justify;
+    }
+    .box {
+      background-color: burlywood;
+      line-height: 1.6em;
+      border: 10px red solid;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    #box-3 {
+      float: left;
+      width: 70%;
+    }
+    #box-4 {
+      float: right;
+      width: 30%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="box-1" class="box">
+      <h3>heading 3</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, adipisci.</p>
+    </div>
+    <div id="box-2" class="box">
+      <h3>heading 3</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, adipisci.</p>
+    </div>
+    <div id="box-3" class="box">
+      <h3>heading 3</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, adipisci.</p>
+    </div>
+    <div id="box-4" class="box">
+      <h3>heading 3</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, adipisci.</p>
+    </div>
+    <div class="clr"></div>
+    <div id="box-5" class="box">
+      <h3>heading 3</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, adipisci.</p>
+    </div>
+  </div>
+</body>
+</html>
+  
