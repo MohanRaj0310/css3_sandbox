@@ -22,6 +22,7 @@
         background-color: #344a34;
         color: white;
         line-height: 1.8;
+        height: 3000px;
       }
 
       a {
@@ -32,51 +33,55 @@
         max-width: 400px;
         margin: 30px auto;
         padding: 20px;
-        border: 10px whitesmoke solid;
+        /* border: 5px solid white; */
         /* text-align: center; */
       }
 
       .form-wrap {
-        /* 
-          This is the white area around the form and heading, etc
-        */
+        background: whitesmoke;
+        padding: 15px 15px;
+        color: #333;
       }
 
       .form-wrap h1,
       .form-wrap p {
-        /* 
-          May want to center these
-        */
+        text-align: center;
       }
 
       .form-wrap .form-group {
-        /* 
-          Each label, input is wrapped in .form-group
-        */
+        margin-top: 15px;
       }
 
       .form-wrap .form-group label {
-        /* 
-          Label should be turned into a block element
-        */
+        display: block;
+        color: green;
       }
 
       .form-wrap .form-group input {
         /* 
           Inputs should reach accross the .form-wrap 100% and have some padding
         */
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
       }
 
       .form-wrap button {
+        background: #49c1a2;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        cursor: pointer;
         /* 
           Button should wrap accross 100% and display as block
-          Background color for button is #49c1a2
+          Background color for button is 
         */
       }
 
       .form-wrap button:hover {
+        background: #8e37a0;
         /* 
-          Hover background color for button is #37a08e
+          Hover background color for button is #8e37a0
         */
       }
 
@@ -84,18 +89,22 @@
         /* 
           Bottom text is smaller
         */
+        font-size: 13px;
+        margin-top: 10px;
       }
 
       footer {
         /* 
         Should be centered
        */
+       text-align: center;
       }
 
       footer a {
         /* 
           Footer link color is #49c1a2
         */
+        color: #49c1a2;
       }
     </style>
   </head>
